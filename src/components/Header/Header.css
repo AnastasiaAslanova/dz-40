@@ -1,0 +1,34 @@
+.header {
+  background-color: #D9D9D9;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  margin-bottom: 19px;
+}
+.header .logo {
+  height: 37px;
+  width: 181px;
+  background-color: #F1F2AE;
+  display: flex;
+}
+.header .menu {
+  display: flex;
+  gap: 20px;
+}
+.header .menu li {
+  height: 37px;
+  width: 46px;
+  list-style-type: none;
+  background-color: #E7EFD6;
+}
+.header .header-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/*# sourceMappingURL=Header.css.map */

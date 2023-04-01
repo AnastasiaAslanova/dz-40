@@ -1,0 +1,11 @@
+//@import "./src/styles/variables";
+//@import "./src/styles/mixins";
+.main {
+  display: grid;
+  grid-template-areas:
+   "hero hero hero aside";
+  grid-gap: 67px;
+
+}
+
+
