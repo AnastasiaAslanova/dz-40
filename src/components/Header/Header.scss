@@ -3,31 +3,43 @@
   height: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;;
   align-items: center;
   gap: 300px;
   margin-bottom: 19px;
-  .logo{
+  padding: 15px;
+  .logo {
     height: 37px;
     width: 181px;
     background-color: #F1F2AE;
     display: flex;
   }
-  .menu {
-    display: flex;
-    gap: 20px;
-    li {
-      height: 37px;
-      width: 46px;
-      list-style-type: none;
-      background-color: #E7EFD6;
-
-    }
-  }
   .header-name {
+    min-width: 130px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
     line-height: 15px;
+  }
+  .menu {
+    display: flex;
+    gap: 8px;
+    li {
+      height: 37px;
+      width: 115px;
+      list-style-type: none;
+      background-color: #E7EFD6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        color: #61dafb;
+        text-decoration: none;
+
+        &.active {
+          color: tomato;
+        }
+      }
+    }
   }
 }
